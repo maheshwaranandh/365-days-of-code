@@ -50,6 +50,15 @@ if both are even or both are add :
 else:
     WHITE
 
+day6:
+https://leetcode.com/problems/sort-the-people/description/
+create a dictionary :store heights as keys and names as values
+sort the heights array in reverse
+assign names[i] as d[heights[i]] : we will get the names in desc order since we have sorted the heights array
+ans=names
+
+
+
 
 
 
