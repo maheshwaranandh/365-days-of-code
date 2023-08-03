@@ -57,11 +57,12 @@ sort the heights array in reverse
 assign names[i] as d[heights[i]] : we will get the names in desc order since we have sorted the heights array
 ans=names
 
-
-
-
-
-
+da7:
+https://leetcode.com/problems/merge-strings-alternately/description/
+find the word with minimum length
+use a for loop and append the letter in ith index of word1 and word 2
+finally return the appended string 
+along with the rest of the extra characters : word1[i+1:] ,word2[i+1:]
 
 
 
