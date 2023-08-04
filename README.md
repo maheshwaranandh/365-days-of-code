@@ -57,12 +57,20 @@ sort the heights array in reverse
 assign names[i] as d[heights[i]] : we will get the names in desc order since we have sorted the heights array
 ans=names
 
-da7:
+day7:
 https://leetcode.com/problems/merge-strings-alternately/description/
 find the word with minimum length
 use a for loop and append the letter in ith index of word1 and word 2
 finally return the appended string 
 along with the rest of the extra characters : word1[i+1:] ,word2[i+1:]
+
+day8:
+https://leetcode.com/problems/valid-anagram/description/
+if the length of the 2 are not equal : return False
+create 2 dictionary : add the charcters and increase their count : use dic.get(s[i],0) (this will take 0 as default value if that character  is not in dic)
+iterate over the characters in the dic :
+if the count of s is not equal to t : return false
+if the loop completes running : all have same count : return true
 
 
 
