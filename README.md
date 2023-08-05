@@ -72,9 +72,17 @@ iterate over the characters in the dic :
 if the count of s is not equal to t : return false
 if the loop completes running : all have same count : return true
 
-
-
-
+day9:
+https://leetcode.com/problems/group-anagrams/description/
+create a dic (use defaultdict(list) to avoid the case where the element is not already present in the list)
+for each word:
+  create a count list with 26 zero's
+  for each character in the word:
+    increment the value of that charcter in the count list
+    we use ord(c) - ord("a") to get the values 0-25 from the ascii values
+  append the string to the key with the same count value
+  here we pass it as a tuple , since we cant pass list and tuples are immutable
+finally the values of the dictionary is the answer
 
 
 
