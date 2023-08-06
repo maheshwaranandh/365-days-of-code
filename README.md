@@ -84,6 +84,16 @@ for each word:
   here we pass it as a tuple , since we cant pass list and tuples are immutable
 finally the values of the dictionary is the answer
 
+day10:
+https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/description/
+answer should have the alphabets from the given start to end and each alphabets should have the numbers from start to end
+create a for loop with range as the numbers representing the 2 alphabets :
+  we do it by converting a=0,b=1....z=25
+  create a for loop with the given 2 numbers as range:
+    create a string with char from the i loop and a num from the j loop
+    use chr to get the char from the ascii value
+    append this str to a list
+ans=list
 
 
 
