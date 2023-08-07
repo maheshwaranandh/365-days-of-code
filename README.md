@@ -95,6 +95,19 @@ create a for loop with range as the numbers representing the 2 alphabets :
     append this str to a list
 ans=list
 
+day11:
+https://leetcode.com/problems/valid-sudoku/
+we use the collections module to make use of defaultdict of set
+by using defaultdict , we dont have to check if it exits before adding an element , it creates an empty set for each key u enter
+we have created 3 such dic : rows,cols,subs
+create a 2d i,j loop:
+  if it is "." : move to next place
+  check if the num is present in the rows,cols,subs: return false
+  else: add the element to the corresponding row,col,sub
+
+if the loop completes: no invalid
+return true
+  
 
 
 
