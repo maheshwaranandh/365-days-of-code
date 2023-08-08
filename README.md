@@ -108,8 +108,16 @@ create a 2d i,j loop:
 if the loop completes: no invalid
 return true
   
-
-
+day12:
+https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/
+convert string to integer list
+i=0
+for each number in that list:
+  we check if the count of i in list is equal to the number :
+  if not we return false
+  else : we increment i by 1
+if loop is completed :
+return true
 
 
 
