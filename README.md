@@ -119,6 +119,19 @@ for each number in that list:
 if loop is completed :
 return true
 
+day13:
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+keep 2 pointers , 1 at start , 1 at end
+create a while loop:
+  check if the sum of the current 2 pointing element is target
+  if so:
+    return their index + 1 (since the answer should be in position type)
+  if it is greater than target :
+    we must reduce it : so move the end pointer to the left
+  else if it is lesser than target "
+    we must increase the value : so we move the start pointer to the right
+
+
 
 
 
