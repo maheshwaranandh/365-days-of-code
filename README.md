@@ -131,7 +131,22 @@ create a while loop:
   else if it is lesser than target "
     we must increase the value : so we move the start pointer to the right
 
-
+day14:
+https://leetcode.com/problems/3sum/description/
+sort the given list
+for each element in list:
+  if the number is same as previous number : skip the iteration
+  keep 2 pointers:
+  left=the next element , right=the last element
+  create a while with condition :l<r
+  if the sum of i + l + r is 0:
+    and it to answer 
+    increase the left pointer until it changes to a new number
+  if the sum is less than 0:
+    increment  the left pointer by 1
+  if sum is greater than 0:
+    decrement the right by 1
+return ans
 
 
 
