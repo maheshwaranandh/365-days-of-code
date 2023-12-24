@@ -1,0 +1,10 @@
+class Solution(object):
+    def sortByBits(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: List[int]
+        """
+
+        arr=sorted(arr)
+        arr=sorted(arr,key=lambda num:(bin(num)[2:]).count("1"))
+        return arr
